@@ -1,0 +1,25 @@
+{
+    "name": "UI",
+    "rootNamespace": "Kamaria.UI",
+    "references": [
+        "GUID:10e70206c2e07214dbdbb99e92ece533",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:fa7423db6f362d04387de25cb81b1cd5",
+        "GUID:37041bb752b7bfa4385869879959a6ed",
+        "GUID:906fb6979fda74d44aacb77237ba20e9"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

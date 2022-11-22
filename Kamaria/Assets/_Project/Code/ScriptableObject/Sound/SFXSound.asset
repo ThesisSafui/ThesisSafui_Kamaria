@@ -1,0 +1,588 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2ea252cff65406287805a00c21f38d9, type: 3}
+  m_Name: SFXSound
+  m_EditorClassIdentifier: 
+  soundType: 1
+  soundClips:
+  - soundCharacter: 0
+    sound: 6
+    audioClip: {fileID: 8300000, guid: 31bb69319cd60684dbac016330d34f3d, type: 3}
+    soundVolume: 0.2005485
+    loop: 1
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 5
+    audioClip: {fileID: 8300000, guid: 42b44155d5f553547814d47c0cfc0e5c, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 4
+    audioClip: {fileID: 8300000, guid: a5081dcfd554dcf409fbfa102cbbcf06, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 7
+    audioClip: {fileID: 8300000, guid: acc25f335df44cb4e8595dd6f5dc61e4, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 8
+    audioClip: {fileID: 8300000, guid: 511e030f8a877364782a975ee9e23ae1, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 9
+    audioClip: {fileID: 8300000, guid: 5728c1c295e72354da74e33c1344bd6b, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 10
+    audioClip: {fileID: 8300000, guid: 54bbc5b31eb73184faa593e9c35fd209, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 11
+    audioClip: {fileID: 8300000, guid: 430d5a0f239fea94d9a9616e9ccc8cd4, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 12
+    audioClip: {fileID: 8300000, guid: c43f1b613ed16f644aea78db2314c5c1, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 13
+    audioClip: {fileID: 8300000, guid: 45658533f8d3b6c409d67712358d5b25, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 14
+    audioClip: {fileID: 8300000, guid: f4992264ae496e9459b1c6873c6b3d03, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 15
+    audioClip: {fileID: 8300000, guid: 873edcf5b1b5ab84c8463098e9840b8c, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 16
+    audioClip: {fileID: 8300000, guid: 09d8c67bbbeaed6428d2c3aff43b9c45, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 17
+    audioClip: {fileID: 8300000, guid: 2019b0b6237282040b292b995e0891b7, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 21
+    audioClip: {fileID: 8300000, guid: 70706ffc367482042ad42c45b03b11f0, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 18
+    audioClip: {fileID: 8300000, guid: 5283e5952518ed94099ce563ebc9cfda, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 19
+    audioClip: {fileID: 8300000, guid: a7a5dd066f8d83c42b77802eca9346b8, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 20
+    audioClip: {fileID: 8300000, guid: 2518d4beff884a644b05dddba577e892, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 22
+    audioClip: {fileID: 8300000, guid: 497d4020061c320438d063b63698bdfb, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 23
+    audioClip: {fileID: 8300000, guid: fcba84349edac3c4991e245d0a2f4781, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 1
+    spatialBlend: 1
+    min3D: 10
+    max3D: 25
+    rolloffMode: 1
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 24
+    audioClip: {fileID: 8300000, guid: 825104c97d16b714aae4f64e373c1d56, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 25
+    audioClip: {fileID: 8300000, guid: e1d90d054387e734ea26967ca77ebc30, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 26
+    audioClip: {fileID: 8300000, guid: b1628b211b461a4448ad503adade726d, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 1
+    spatialBlend: 1
+    min3D: 10
+    max3D: 25
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 27
+    audioClip: {fileID: 8300000, guid: 9e9ca2f577ffe434a954495f3d0287a0, type: 3}
+    soundVolume: 0.2005485
+    loop: 1
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 28
+    audioClip: {fileID: 8300000, guid: 6e0d86e7a8b622849bd44edce1d9c2a1, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 29
+    audioClip: {fileID: 8300000, guid: 25ce989d0b39d1e4695bd6736a750884, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 0
+    sound: 30
+    audioClip: {fileID: 8300000, guid: bad2b55cae4cf3b4bbfc31a02b703dc7, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 31
+    audioClip: {fileID: 8300000, guid: 490eade158877f842957d5e21c272b76, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 32
+    audioClip: {fileID: 8300000, guid: 80b3ec045afaa52489e44d2e46fcca8a, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 33
+    audioClip: {fileID: 8300000, guid: 24f58c1e65826e44996b64903d60c15a, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 34
+    audioClip: {fileID: 8300000, guid: 18d60a9f9ce93354297e894700a5bd38, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 1
+    spatialBlend: 1
+    min3D: 25
+    max3D: 50
+    rolloffMode: 1
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 35
+    audioClip: {fileID: 8300000, guid: b1628b211b461a4448ad503adade726d, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 1
+    spatialBlend: 1
+    min3D: 25
+    max3D: 50
+    rolloffMode: 1
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 36
+    audioClip: {fileID: 8300000, guid: 3ce946545bbd3d74a804627904a94824, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 37
+    audioClip: {fileID: 8300000, guid: 60ee8ab279ec8344b8b2ef5ff15abafd, type: 3}
+    soundVolume: 0.2005485
+    loop: 1
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 38
+    audioClip: {fileID: 8300000, guid: 11baa408d8c4a614981360b031cebc44, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 39
+    audioClip: {fileID: 8300000, guid: 829fb7921abbdd0499da1204f65445ae, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 40
+    audioClip: {fileID: 8300000, guid: a4353e0484a975e4bbf67911675de4d5, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 41
+    audioClip: {fileID: 8300000, guid: 09e67d986a037a0438d1138669f05d3b, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 42
+    audioClip: {fileID: 8300000, guid: e17edd4f79cba2e40a5374a9ee60efff, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 43
+    audioClip: {fileID: 8300000, guid: bb35ff75befd15c4d82d29d1d3883c30, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 1
+    use3D: 1
+    spatialBlend: 1
+    min3D: 10
+    max3D: 25
+    rolloffMode: 1
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 44
+    audioClip: {fileID: 8300000, guid: 139e293ae64337a4b9d2b7c9ae9bd44f, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 45
+    audioClip: {fileID: 8300000, guid: 825104c97d16b714aae4f64e373c1d56, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 46
+    audioClip: {fileID: 8300000, guid: e0d2c82d0c1253247909d80fd0c19f72, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}
+  - soundCharacter: 1
+    sound: 47
+    audioClip: {fileID: 8300000, guid: 9114d2ce922b5a14b90f80b0a81d48f4, type: 3}
+    soundVolume: 0.2005485
+    loop: 0
+    mute: 0
+    untilTheEnd: 0
+    use3D: 0
+    spatialBlend: 0
+    min3D: 0
+    max3D: 0
+    rolloffMode: 0
+    audioSource: {fileID: 0}

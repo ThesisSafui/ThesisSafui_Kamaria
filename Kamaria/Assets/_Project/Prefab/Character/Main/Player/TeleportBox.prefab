@@ -1,0 +1,545 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3958595709680687300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595709680687301}
+  - component: {fileID: 3958595709680687306}
+  - component: {fileID: 3958595709680687307}
+  m_Layer: 19
+  m_Name: TeleportBox (0)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595709680687301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709680687300}
+  m_LocalRotation: {x: -0, y: -0.4439735, z: -0, w: 0.89603996}
+  m_LocalPosition: {x: 682.87, y: 40.31, z: 485.65}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -52.715, z: 0}
+--- !u!65 &3958595709680687306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709680687300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595709680687307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709680687300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595709911231958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595709911231959}
+  - component: {fileID: 3958595709911231957}
+  - component: {fileID: 3958595709911231956}
+  m_Layer: 19
+  m_Name: TeleportBox (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595709911231959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709911231958}
+  m_LocalRotation: {x: -0, y: 0.3576029, z: -0, w: 0.9338738}
+  m_LocalPosition: {x: 106.99621, y: 49.78, z: 645.5548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 41.906, z: 0}
+--- !u!65 &3958595709911231957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709911231958}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595709911231956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709911231958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595709965761371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595709965761368}
+  m_Layer: 19
+  m_Name: TeleportBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595709965761368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595709965761371}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3958595709680687301}
+  - {fileID: 3958595711481257761}
+  - {fileID: 3958595710858628389}
+  - {fileID: 3958595710442691072}
+  - {fileID: 3958595710623132909}
+  - {fileID: 3958595710641562695}
+  - {fileID: 3958595709911231959}
+  - {fileID: 3958595711194100576}
+  m_Father: {fileID: 0}
+  m_RootOrder: 62
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3958595710442691075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595710442691072}
+  - component: {fileID: 3958595710442691078}
+  - component: {fileID: 3958595710442691073}
+  m_Layer: 19
+  m_Name: TeleportBox (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595710442691072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710442691075}
+  m_LocalRotation: {x: -0, y: -0.24049167, z: -0, w: 0.9706512}
+  m_LocalPosition: {x: 382.43, y: 49.78, z: 519.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -27.831, z: 0}
+--- !u!65 &3958595710442691078
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710442691075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595710442691073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710442691075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595710623132908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595710623132909}
+  - component: {fileID: 3958595710623132883}
+  - component: {fileID: 3958595710623132882}
+  m_Layer: 19
+  m_Name: TeleportBox (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595710623132909
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710623132908}
+  m_LocalRotation: {x: -0, y: -0.13391763, z: -0, w: 0.99099255}
+  m_LocalPosition: {x: 235, y: 49.78, z: 541.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -15.392, z: 0}
+--- !u!65 &3958595710623132883
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710623132908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595710623132882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710623132908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595710641562694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595710641562695}
+  - component: {fileID: 3958595710641562693}
+  - component: {fileID: 3958595710641562692}
+  m_Layer: 19
+  m_Name: TeleportBox (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595710641562695
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710641562694}
+  m_LocalRotation: {x: -0, y: -0.2787168, z: -0, w: 0.9603734}
+  m_LocalPosition: {x: 195.88, y: 49.78, z: 650.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -32.367, z: 0}
+--- !u!65 &3958595710641562693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710641562694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595710641562692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710641562694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595710858628388
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595710858628389}
+  - component: {fileID: 3958595710858628395}
+  - component: {fileID: 3958595710858628394}
+  m_Layer: 19
+  m_Name: TeleportBox (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595710858628389
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710858628388}
+  m_LocalRotation: {x: -0, y: -0.09663334, z: -0, w: 0.99532014}
+  m_LocalPosition: {x: 277.66, y: 49.78, z: 478.89}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -11.091, z: 0}
+--- !u!65 &3958595710858628395
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710858628388}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595710858628394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595710858628388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595711194100579
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595711194100576}
+  - component: {fileID: 3958595711194100582}
+  - component: {fileID: 3958595711194100577}
+  m_Layer: 19
+  m_Name: TeleportBox (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595711194100576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711194100579}
+  m_LocalRotation: {x: -0, y: 0.7543893, z: -0, w: 0.6564273}
+  m_LocalPosition: {x: -587.83, y: 49.78, z: 412.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 97.944, z: 0}
+--- !u!65 &3958595711194100582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711194100579}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595711194100577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711194100579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8
+--- !u!1 &3958595711481257760
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3958595711481257761}
+  - component: {fileID: 3958595711481257766}
+  - component: {fileID: 3958595711481257767}
+  m_Layer: 19
+  m_Name: TeleportBox (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3958595711481257761
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711481257760}
+  m_LocalRotation: {x: -0, y: -0.45137787, z: -0, w: 0.8923329}
+  m_LocalPosition: {x: 672.6, y: 49.78, z: 470.33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3958595709965761368}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: -53.664, z: 0}
+--- !u!65 &3958595711481257766
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711481257760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.447815, y: 7.8621674, z: 3.1458435}
+  m_Center: {x: 1.2239075, y: 3.4310837, z: 1.0729218}
+--- !u!114 &3958595711481257767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3958595711481257760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e0adbaf7b84c13a86c283149bdf7cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cinemachineVirtualCamera: {fileID: 0}
+  spawnPos: {fileID: 0}
+  uiInteract: {fileID: 0}
+  playerData: {fileID: 11400000, guid: 69727d5e351e1844ab72b0d6554e12a2, type: 2}
+  defaultTime: 0.8

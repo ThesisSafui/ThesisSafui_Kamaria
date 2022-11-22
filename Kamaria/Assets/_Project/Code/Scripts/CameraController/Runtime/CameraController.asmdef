@@ -1,0 +1,22 @@
+{
+    "name": "CameraController",
+    "rootNamespace": "Kamaria.CameraController",
+    "references": [
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:fa7423db6f362d04387de25cb81b1cd5"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

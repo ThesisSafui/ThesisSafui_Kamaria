@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0984e0da0084a2eb5a083ba033d465a, type: 3}
+  m_Name: CharacterSkillData
+  m_EditorClassIdentifier: 
+  IsChangeWeaponCooldown: 0
+  IsChangeWeaponKeyStone: 0
+  IsUseSkillPowerStone: 0
+  IsUseActiveSkill: 0
+  IsUseUltimateSkill: 0
+  IsUsePassiveSkill: 0
+  IsUseSkillCanNotAttack: 0
+  CurrentCombo: 0
+  IsChangeWeaponFinish: 1
+  IsBowAttackFinish: 1
+  IsBowAttacking: 0
+  IsBowChargeAttacking: 0
+  IsBowCharging: 0
+  KnuckleLeft: 0
+  KnuckleRight: 0
+  KnuckleHeavyPunch: 0
+  PunchFinish: 1
+  UsingGuard: 0
+  ChangeWeaponFinish: 1
+  durationAttack: 0.25
+  swordMoveAttacks:
+  - acceleration: 2
+    time: 0.1
+  - acceleration: 4
+    time: 0.1
+  - acceleration: 3
+    time: 0.1
+  - acceleration: 2
+    time: 0.2
+  - acceleration: 2
+    time: 0.2
+  knuckleMoveAttacks:
+  - acceleration: 13
+    time: 0.3
+  skillSwordComponent1Cooldown:
+    cooldown:
+    - 8
+    - 6
+  skillSwordRedStoneCooldown:
+    cooldown:
+    - 8
+    - 6
+  skillSwordPowerStoneCooldown:
+    cooldown:
+    - 1
+  bowAttackDuration:
+    cooldown:
+    - 0.8
+  skillKnuckleComponent1Cooldown:
+    cooldown:
+    - 8
+    - 6
+  skillKnuckleRedStoneCooldown:
+    cooldown:
+    - 8
+    - 6
+  skillKnuckleGreenStoneCooldown:
+    cooldown:
+    - 8
+    - 6
+  skillKnucklePowerStoneCooldown:
+    cooldown:
+    - 1
+  cannonAttackCooldown:
+    cooldown:
+    - 1.8
+  gunAttackCooldown:
+    cooldown:
+    - 1
+  skillGunComponent1Cooldown:
+    cooldown:
+    - 8
+    - 6
+  skillGunRedStoneCooldown:
+    cooldown:
+    - 8
+    - 6
+  skillGunGreenStoneCooldown:
+    cooldown:
+    - 8
+    - 6
+  skillGunPowerStoneCooldown:
+    cooldown:
+    - 1
+  cooldownPotion: 2
+  bowAttackRotationSpeed: 0.25
+  bowChargeTime: 2
+  cooldownChangeWeapon: 1.25
+  waitNextComboKnuckleTime: 1
+  cannonAttackRotationSpeed: 0.25
+  limitCannonAttack: 13
+  limitCannonAttackAim: 16
+  limitIndicatorCannonAttackSize: 30
+  limitIndicatorCannonAttackAimSize: 38
+  guardTime:
+  - 2
+  - 4

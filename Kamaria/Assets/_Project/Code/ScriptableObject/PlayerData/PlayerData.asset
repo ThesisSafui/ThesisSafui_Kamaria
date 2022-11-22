@@ -1,0 +1,1534 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0be33b036a7445d8a80b057ca3c6d4eb, type: 3}
+  m_Name: PlayerData
+  m_EditorClassIdentifier: 
+  characterControllerData: {fileID: 11400000, guid: b3dfff45462b1274289c9d84aac0dabd,
+    type: 2}
+  characterSkillData: {fileID: 11400000, guid: 431bcfe88db95a14291810976a05d899, type: 2}
+  bangleTech: {fileID: 11400000, guid: cb0f151858e312040abcb70133e14d91, type: 2}
+  glassTech: {fileID: 11400000, guid: 24ac3d7f966b9574c83963f5803dd5f2, type: 2}
+  Info:
+    Authentication:
+      FirstLogin: 0
+      Age: 22
+      Gender: 1
+    Status:
+      BaseMaxHealth: 1000
+      BaseAtk: 100
+      MaxHealth: 1000
+      CurrentHealth: 1000
+      Atk: 100
+      CritRate: 0
+      ReductionDamage: 0
+      SpeedAttack: 0
+      AttackRange: 0
+      MaxCombo: 0
+    DeviceCompartment:
+      SlotWeapon:
+        Info:
+          Name: 
+          Types: 0
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 0
+          Level: 0
+          Image: []
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        IsEmpty: 1
+      SlotGlassTech:
+        Info:
+          Name: 0d0000000d0000000d000000
+          Types: 2
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 3
+          Level: 1
+          Image:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 1
+          Count: 1
+        IsEmpty: 0
+      SlotBangleTech:
+        Info:
+          Name: 0e0000000e0000000e000000
+          Types: 2
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 3
+          Level: 1
+          Image:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 1
+          Count: 1
+        IsEmpty: 0
+    Inventory:
+      InventoryWeapon:
+        baseWeapon:
+        - {fileID: 11400000, guid: 1fea628fe8ae89040bff1b3f67b4f465, type: 2}
+        - {fileID: 11400000, guid: 620a6c393078e3b4a9249fa08f74879b, type: 2}
+        - {fileID: 11400000, guid: 6c40c15aa567b984bb9e9705a6e41792, type: 2}
+        Weapon:
+        - Name: 070000000800000009000000
+          Types: 1
+          WeaponType: 3
+          UsedKeyStone: 0
+          TypeAttackRange: 2
+          MaxLevel: 3
+          Level: 1
+          Image:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          MaxHealth: 000000000000000000000000
+          IncreaseCurrentHealth: 0
+          Atk: 320000009b000000f0000000
+          CritRate: 000000000000000000000000
+          ReductionDamage:
+          - 0
+          - 0
+          - 0
+          SpeedAttack:
+          - 0
+          - 0
+          - 0
+          MaxCombo: 000000000000000000000000
+          AttackRange:
+          - 0
+          - 0
+          - 0
+          IncreaseDashAcceleration:
+          - 0
+          - 0
+          - 0
+          WeaponComponentLevel:
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          IsUsedEquip: 0
+          Count: 1
+        - Name: 040000000500000006000000
+          Types: 1
+          WeaponType: 2
+          UsedKeyStone: 0
+          TypeAttackRange: 1
+          MaxLevel: 3
+          Level: 1
+          Image:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          MaxHealth: 000000000000000000000000
+          IncreaseCurrentHealth: 0
+          Atk: 46000000f00000009a010000
+          CritRate: 000000000000000000000000
+          ReductionDamage:
+          - 0
+          - 0
+          - 0
+          SpeedAttack:
+          - 0
+          - 0
+          - 0
+          MaxCombo: 000000000000000000000000
+          AttackRange:
+          - 0
+          - 0
+          - 0
+          IncreaseDashAcceleration:
+          - 0
+          - 0
+          - 0
+          WeaponComponentLevel:
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          IsUsedEquip: 0
+          Count: 1
+        - Name: 010000000200000003000000
+          Types: 1
+          WeaponType: 1
+          UsedKeyStone: 0
+          TypeAttackRange: 1
+          MaxLevel: 3
+          Level: 1
+          Image:
+          - {fileID: 0}
+          - {fileID: 0}
+          - {fileID: 0}
+          MaxHealth: 000000000000000000000000
+          IncreaseCurrentHealth: 0
+          Atk: 280000003c00000069000000
+          CritRate: 000000000000000000000000
+          ReductionDamage:
+          - 0
+          - 0
+          - 0
+          SpeedAttack:
+          - 0
+          - 0
+          - 0
+          MaxCombo: 030000000300000003000000
+          AttackRange:
+          - 0
+          - 0
+          - 0
+          IncreaseDashAcceleration:
+          - 0
+          - 0
+          - 0
+          WeaponComponentLevel:
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          - UpgradeComponent1: 0
+            UpgradeComponent2: 0
+            UpgradeComponent3: 0
+            IsEvolution: 0
+          IsUsedEquip: 0
+          Count: 1
+      InventoryGeneral:
+        inventoryTypes: 1
+        stack: 10
+        slotItem: 30
+        baseItemsGeneral:
+        - {fileID: 11400000, guid: b0fb806eac959a04cbb2ea83b95a79c8, type: 2}
+        - {fileID: 11400000, guid: d285bdd66404cb744a58e61328400282, type: 2}
+        - {fileID: 11400000, guid: 9a0031500a262364d976a6c96e1792a0, type: 2}
+        - {fileID: 11400000, guid: f9d0f7c1da0d7de439f7e4a77165d2fc, type: 2}
+        - {fileID: 11400000, guid: f22c585b12e5bad449a3a33309ee68c2, type: 2}
+        - {fileID: 11400000, guid: 2e6c7e29ab02bee428595f72ef69cb8c, type: 2}
+        - {fileID: 11400000, guid: 3733dd3b821c59d45bffb378ac647ce2, type: 2}
+        - {fileID: 11400000, guid: 0840284d586459f40a28bf4e0e95359c, type: 2}
+        - {fileID: 11400000, guid: 619b0efebea93b34fae815008b904650, type: 2}
+        - {fileID: 11400000, guid: 4cc755768a1bcce459dbf7cd74d476d9, type: 2}
+        - {fileID: 11400000, guid: fdb4f86342878ec41925359e8fc314a8, type: 2}
+        - {fileID: 11400000, guid: dced85c0f2cd38447a61c96ae3f77f30, type: 2}
+        - {fileID: 11400000, guid: ced598d2efcd3c549abf9c0c15851f16, type: 2}
+        - {fileID: 11400000, guid: 565b48ecba5153249a0677dc1164cf69, type: 2}
+        - {fileID: 11400000, guid: 833b7de78181d4b41af6c48999cc2041, type: 2}
+        - {fileID: 11400000, guid: 87c7408f6e7d56248b9c6838ac6bec90, type: 2}
+        - {fileID: 11400000, guid: 6b646571c404a60479e509a44dc35581, type: 2}
+        - {fileID: 11400000, guid: 52a1f9f05f11e7b439bce1d4a51cef05, type: 2}
+        - {fileID: 11400000, guid: 3735e4aeb58c48547a9c4ba5ad43eb90, type: 2}
+        - {fileID: 11400000, guid: dd16d1bb9f2954a48a980ad30f40255d, type: 2}
+        - {fileID: 11400000, guid: de41ae80364be0d409aca15a605cb30c, type: 2}
+        Items:
+        - Name: 21000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 18000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1e000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 17000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 19000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1a000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 23000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 22000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1f000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 13000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 14000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 20000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 24000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 15000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1b000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1d000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 12000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 11000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 16000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 1c000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+        - Name: 10000000
+          Types: 3
+          WeaponType: 0
+          UsedKeyStone: 0
+          TypeAttackRange: 0
+          MaxLevel: 1
+          Level: 1
+          Image:
+          - {fileID: 0}
+          MaxHealth: 
+          IncreaseCurrentHealth: 0
+          Atk: 
+          CritRate: 
+          ReductionDamage: []
+          SpeedAttack: []
+          MaxCombo: 
+          AttackRange: []
+          IncreaseDashAcceleration: []
+          WeaponComponentLevel: []
+          IsUsedEquip: 0
+          Count: 0
+      InventoryKeyStone:
+        KeyStones: []
+    VaultGeneral:
+      inventoryTypes: 0
+      stack: 10
+      slotItem: 30
+      baseItemsGeneral:
+      - {fileID: 11400000, guid: 6a5e55c536052c643b101fa187f049fe, type: 2}
+      - {fileID: 11400000, guid: 926054727be28c54c9ec52304bace0ea, type: 2}
+      - {fileID: 11400000, guid: fc99542bf8c55064095704743d00db49, type: 2}
+      - {fileID: 11400000, guid: 9091ad405bcb4b24387d31075f1dac5d, type: 2}
+      - {fileID: 11400000, guid: f721e587303eac74f862cb3436f91180, type: 2}
+      - {fileID: 11400000, guid: 58afff64cc9d78e4ba721d06a3298d16, type: 2}
+      - {fileID: 11400000, guid: 051e9a246c41ffd449a4445e46029334, type: 2}
+      - {fileID: 11400000, guid: bb705c32eafb9554584c9e6532fdbae9, type: 2}
+      - {fileID: 11400000, guid: e1921decb2271234892de240d36d2c14, type: 2}
+      - {fileID: 11400000, guid: 1c0cfd9f8f1a7144cbf4b00bb7a7eb65, type: 2}
+      - {fileID: 11400000, guid: 0dd6f284d78075d458eb5dfcde308481, type: 2}
+      - {fileID: 11400000, guid: 94a50a254a1eac846aff40d06b5067c8, type: 2}
+      - {fileID: 11400000, guid: 799ead901fb02a94ca086c0cd5086f82, type: 2}
+      - {fileID: 11400000, guid: 32d8469dcf20da54b8cd730dfce1bce0, type: 2}
+      - {fileID: 11400000, guid: 6da62615fa9c4c749a00a43063f3f1e7, type: 2}
+      - {fileID: 11400000, guid: 86496f23afb5c204fbe972d0002148ce, type: 2}
+      - {fileID: 11400000, guid: d7a17e255107e654a901976c96620e61, type: 2}
+      - {fileID: 11400000, guid: 245d29d557c344949a83506fc434371a, type: 2}
+      - {fileID: 11400000, guid: 23963b512ba8d7d478e63f5c52817f9c, type: 2}
+      - {fileID: 11400000, guid: a2a3e7b1f76aff44d85224bb09290a43, type: 2}
+      - {fileID: 11400000, guid: f7b0373de112a4243bbc0ed039d8b140, type: 2}
+      Items:
+      - Name: 21000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 18000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1e000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 17000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 19000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1a000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 23000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 22000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1f000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 13000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 14000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 20000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 24000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 15000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1b000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1d000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 12000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 11000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 16000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 1c000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+      - Name: 10000000
+        Types: 3
+        WeaponType: 0
+        UsedKeyStone: 0
+        TypeAttackRange: 0
+        MaxLevel: 1
+        Level: 1
+        Image:
+        - {fileID: 0}
+        MaxHealth: 
+        IncreaseCurrentHealth: 0
+        Atk: 
+        CritRate: 
+        ReductionDamage: []
+        SpeedAttack: []
+        MaxCombo: 
+        AttackRange: []
+        IncreaseDashAcceleration: []
+        WeaponComponentLevel: []
+        IsUsedEquip: 0
+        Count: 0
+    Quest:
+      MainQuest:
+        Quest1:
+          QuestTypes: 0
+          IndexNumberQuest: 0
+          NameQuest: 0
+          TextShowNameQuest: First fight in the new world
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 0
+            requirementText: Sword Kill Enemies
+            count: 3
+            CurrentCount: 0
+          - questRequirement: 1
+            requirementText: Knuckle Kill Enemies
+            count: 3
+            CurrentCount: 0
+          - questRequirement: 2
+            requirementText: Gun Kill Enemies
+            count: 3
+            CurrentCount: 0
+          DetailQuest: kill enemies in the dungeon.
+          ItemsReword:
+          - {fileID: 11400000, guid: d83b8d87ffce85c45ae250f9bb27f5bb, type: 2}
+          - {fileID: 11400000, guid: 0b9a59dd35a019848b32a6dfe5ce3ea2, type: 2}
+          - {fileID: 11400000, guid: 7ccc10a916ad4d047aa21515c3ab9d97, type: 2}
+          TeleportToDungeons: 3
+        Quest2:
+          QuestTypes: 0
+          IndexNumberQuest: 1
+          NameQuest: 1
+          TextShowNameQuest: The First Craft
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 3
+            requirementText: Upgrade any weapon in any part
+            count: 1
+            CurrentCount: 0
+          DetailQuest: Upgrade weapons. It can be any weapon and any part of the
+            weapon.
+          ItemsReword:
+          - {fileID: 11400000, guid: 4e63ba3457ecb7143a3a8b41c0330a68, type: 2}
+          - {fileID: 11400000, guid: aca147babe3d0cf46bfc9e61d09f4f85, type: 2}
+          - {fileID: 11400000, guid: fa7e8a94afa921f4896801c5d3be495c, type: 2}
+          TeleportToDungeons: 3
+        Quest3:
+          QuestTypes: 0
+          IndexNumberQuest: 2
+          NameQuest: 2
+          TextShowNameQuest: Find the treasure
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 4
+            requirementText: Find treasure
+            count: 2
+            CurrentCount: 0
+          DetailQuest: Find treasure boxes in the Abandon Island (Booty Cove).
+          ItemsReword:
+          - {fileID: 11400000, guid: 71f09227ed6180444a579bb428dfe8f1, type: 2}
+          - {fileID: 11400000, guid: 1a40a7d591a4d5a43af686ba7b6b13c1, type: 2}
+          - {fileID: 11400000, guid: 584acaf56d287684288cb2c75c878f21, type: 2}
+          TeleportToDungeons: 0
+        Quest4:
+          QuestTypes: 0
+          IndexNumberQuest: 3
+          NameQuest: 3
+          TextShowNameQuest: The Lost Memories
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 5
+            requirementText: Get Memory Cards
+            count: 3
+            CurrentCount: 0
+          DetailQuest: 'Find  memory cards of physics equations. There will be 3
+            Memory chips placed in the map.                                                                                                                                                 '
+          ItemsReword:
+          - {fileID: 11400000, guid: 6ac378982e76d3e42805db30f17bd601, type: 2}
+          - {fileID: 11400000, guid: e056bdca3f7deeb42ac675b081808ca8, type: 2}
+          TeleportToDungeons: 2
+        Quest5:
+          QuestTypes: 0
+          IndexNumberQuest: 4
+          NameQuest: 4
+          TextShowNameQuest: Tracking the teleport
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 6
+            requirementText: get information sheet
+            count: 1
+            CurrentCount: 0
+          DetailQuest: "Finding clues to the teleportation machine that had been
+            stolen by some pirate groups. Need to find information from the Abandon
+            Island (Dead Isle\r). In the largest camp"
+          ItemsReword:
+          - {fileID: 11400000, guid: 2bd0aab75d1fbe54997c2079e8ec90e8, type: 2}
+          - {fileID: 11400000, guid: 93b44de7059b3274e99a1fae0d2a50cc, type: 2}
+          TeleportToDungeons: 1
+        Quest6:
+          QuestTypes: 0
+          IndexNumberQuest: 5
+          NameQuest: 5
+          TextShowNameQuest: Defeat the boss shark pirate (BOSS)
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 7
+            requirementText: Defeat Boss Shark Pirate.
+            count: 1
+            CurrentCount: 0
+          DetailQuest: Defeat the boss shark pirate
+          ItemsReword:
+          - {fileID: 11400000, guid: 2b51cca47d5c89c4c8d0c4fbaefc2630, type: 2}
+          - {fileID: 11400000, guid: f77e0cbc822750340b866019f7b6c57a, type: 2}
+          TeleportToDungeons: 3
+        Quest7:
+          QuestTypes: 0
+          IndexNumberQuest: 6
+          NameQuest: 6
+          TextShowNameQuest: Defeat the invader 01
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 8
+            requirementText: "Defeat monsters in Dead Man\u2019s Heaven"
+            count: 20
+            CurrentCount: 0
+          - questRequirement: 19
+            requirementText: 1/3 of Skeleton Boss Map
+            count: 1
+            CurrentCount: 0
+          DetailQuest: "Defeat monsters  in Abandon Island (Dead Man\u2019s Heaven).
+            \nFind a  piece of the Last Boss map which will be in the largest camp."
+          ItemsReword:
+          - {fileID: 11400000, guid: a9ba849a874deca4f9405580eeeff765, type: 2}
+          - {fileID: 11400000, guid: 0d2e087e4e36eaf42819ad9e7ee66e84, type: 2}
+          TeleportToDungeons: 2
+        Quest8:
+          QuestTypes: 0
+          IndexNumberQuest: 7
+          NameQuest: 7
+          TextShowNameQuest: No Pain No Gain
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 9
+            requirementText: Defeat The Shark boss pirate.
+            count: 1
+            CurrentCount: 0
+          DetailQuest: 'Defeat the shark boss one more time. '
+          ItemsReword:
+          - {fileID: 11400000, guid: e475e00f7d81041439ef90b9ce529fbb, type: 2}
+          - {fileID: 11400000, guid: e6cd5b940be432a4fbb2380f67269b7c, type: 2}
+          - {fileID: 11400000, guid: e611633fbdc40c245b58abd5b693f5d1, type: 2}
+          TeleportToDungeons: 3
+        Quest9:
+          QuestTypes: 0
+          IndexNumberQuest: 8
+          NameQuest: 8
+          TextShowNameQuest: Defeat the invader 02
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 10
+            requirementText: Defeat monsters in Dead Isle
+            count: 20
+            CurrentCount: 0
+          - questRequirement: 18
+            requirementText: 2/3 of Skeleton Boss Map
+            count: 1
+            CurrentCount: 0
+          DetailQuest: "Defeat monsters  in Abandon Island (Dead Isle). \nFind a 
+            piece of the Last Boss map which will be in the largest camp."
+          ItemsReword:
+          - {fileID: 11400000, guid: dffcf15ff781b2141acd04df78f44095, type: 2}
+          - {fileID: 11400000, guid: 2c6787e134d70114390233e8d11d2e83, type: 2}
+          TeleportToDungeons: 1
+        Quest10:
+          QuestTypes: 0
+          IndexNumberQuest: 9
+          NameQuest: 9
+          TextShowNameQuest: Defeat the invader 03
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 11
+            requirementText: Defeat monsters in Booty Cove
+            count: 20
+            CurrentCount: 0
+          - questRequirement: 17
+            requirementText: 3/3 of Skeleton Boss Map
+            count: 1
+            CurrentCount: 0
+          DetailQuest: "Defeat monsters  in Abandon Island (Booty Cove). \nFind a 
+            piece of the Last Boss map which will be in the largest camp."
+          ItemsReword:
+          - {fileID: 11400000, guid: f9a6016a654e40d42a03f1b0c158deb7, type: 2}
+          - {fileID: 11400000, guid: b48da99cf06c3cc40ae5dfef8521c64b, type: 2}
+          TeleportToDungeons: 0
+        Quest11:
+          QuestTypes: 0
+          IndexNumberQuest: 10
+          NameQuest: 10
+          TextShowNameQuest: Defeat the boss skeleton pirate (BOSS)
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 12
+            requirementText: Defeat Boss Skeleton Pirate.
+            count: 1
+            CurrentCount: 0
+          DetailQuest: Defeat Boss Skeleton Pirate.
+          ItemsReword:
+          - {fileID: 11400000, guid: bee93ad1aa700684b844dc8a159c6212, type: 2}
+          - {fileID: 11400000, guid: ba7915ac6dde76a48a71b35523e5e5ff, type: 2}
+          - {fileID: 11400000, guid: 696f5534f23be6b498fdceca2293d1dd, type: 2}
+          - {fileID: 11400000, guid: eb9cb276d27ed4642b46275cc443eb8f, type: 2}
+          TeleportToDungeons: 3
+        indexCurrentQuest: 0
+      SideQuest:
+        Quest1:
+          QuestTypes: 1
+          IndexNumberQuest: 0
+          NameQuest: 11
+          TextShowNameQuest: Find keystones location
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 13
+            requirementText: Get Wind Keystone
+            count: 1
+            CurrentCount: 0
+          DetailQuest: "Go to Red Teleport.\nThe answer is ahead.\n\u201CDead by
+            greed\u201D\r\n\u201CMan and the Sea\"\r\n\u201CTells the truth\u201D\r\n\u201CNo
+            one escape\u201D\r\n\u201CTales of lie\u201D\r"
+          ItemsReword:
+          - {fileID: 11400000, guid: 90342990c5138be42bdb9868f0a11c65, type: 2}
+          - {fileID: 11400000, guid: dbb5e8cde86889841b23fc479d0ed3cc, type: 2}
+          TeleportToDungeons: 0
+        Quest2:
+          QuestTypes: 2
+          IndexNumberQuest: 1
+          NameQuest: 12
+          TextShowNameQuest: Keystones power
+          IsDoing: 0
+          IsSucceed: 0
+          RequirementQuests:
+          - questRequirement: 14
+            requirementText: artifact in booty cove
+            count: 5
+            CurrentCount: 0
+          DetailQuest: ' Find 5 keystones Artifact hidden in each map. '
+          ItemsReword:
+          - {fileID: 11400000, guid: 6cbfd84ea58f34f4197b631345a23003, type: 2}
+          TeleportToDungeons: 0
+        indexCurrentQuest: 0
+    IsFirstTime: 0
+  PlayerAnimation:
+    Animator: {fileID: 0}
+    IsAttacking: 0
+    IsAnimationAttackNotMove: 0
+    animatorControllers: {fileID: 9100000, guid: 04cc0e362bdb5d044927c209e908cf43,
+      type: 2}
+    speedAnimations:
+    - weaponTypes: 1
+      defaultSpeedAnimCombo1: 0.85
+      defaultSpeedAnimCombo2: 0.85
+      defaultSpeedAnimCombo3: 0.85
+      defaultSpeedAnimCombo4: 1
+      speedAnimCombo1: 1
+      speedAnimCombo2: 1.25
+      speedAnimCombo3: 1.25
+      speedAnimCombo4: 1
+    - weaponTypes: 3
+      defaultSpeedAnimCombo1: 0.9
+      defaultSpeedAnimCombo2: 0
+      defaultSpeedAnimCombo3: 0
+      defaultSpeedAnimCombo4: 0
+      speedAnimCombo1: 2
+      speedAnimCombo2: 0
+      speedAnimCombo3: 0
+      speedAnimCombo4: 0
+  PlayerDamageColliers:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  IsBowChargeFull: 0
+  IsDead: 0
+  IsStun: 0
+  IsInteract: 0
+  CanInteract: 1
+  IsUsingUI: 0
+  TelePort: 0
+  UIsLinkEsc:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  QuestPasswordSucceed: 0

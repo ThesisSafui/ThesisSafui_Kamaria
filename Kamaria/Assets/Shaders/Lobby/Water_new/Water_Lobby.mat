@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water_Lobby
+  m_Shader: {fileID: -6465566751694194690, guid: 435caa09f6eaaaa459491e4c96e2efa2,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _FoamAmount: 0.4
+    - _FoamAmout: 0.5
+    - _FoamCutoff: 1
+    - _FoamScale: 50
+    - _FoamSpeed: 0.12
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RippleDensity: 4
+    - _RippleSlimness: 8
+    - _RippleSpeed: 2
+    - _WaveScale: 2
+    - _WaveSpeed: 0.2
+    m_Colors:
+    - Color_6b70a5299b9046e680b509d44769fd5d: {r: 1.498039, g: 1.498039, b: 1.498039,
+        a: 1}
+    - _BaseColor: {r: 0.07289071, g: 0.735849, b: 0.6890402, a: 0}
+    - _FoamColor: {r: 0, g: 0.83069056, b: 0.8773585, a: 1}
+    - _RippleColor: {r: 0.14417945, g: 0.5493299, b: 0.6792453, a: 1}
+  m_BuildTextureStacks: []
+--- !u!114 &3520140412588980583
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 6

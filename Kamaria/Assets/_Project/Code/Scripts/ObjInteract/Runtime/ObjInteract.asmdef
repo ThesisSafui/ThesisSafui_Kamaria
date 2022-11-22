@@ -1,0 +1,25 @@
+{
+    "name": "ObjInteract",
+    "rootNamespace": "",
+    "references": [
+        "GUID:10e70206c2e07214dbdbb99e92ece533",
+        "GUID:4307f53044263cf4b835bd812fc161a4",
+        "GUID:906fb6979fda74d44aacb77237ba20e9",
+        "GUID:fa7423db6f362d04387de25cb81b1cd5",
+        "GUID:37041bb752b7bfa4385869879959a6ed"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WSA",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

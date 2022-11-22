@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3070d63886cf4b2aad251f1de746350b, type: 3}
+  m_Name: AIGolemStatusData
+  m_EditorClassIdentifier: 
+  statusLevel:
+  - Level: 1
+    MaxHealth: 1020
+    CurrentHealth: 0
+    MaxGuard: 100
+    CurrentGuard: 0
+    Atk: 180
+    ReductionDamage: 0
+    IncreasePercent: 10
+  - Level: 2
+    MaxHealth: 1020
+    CurrentHealth: 0
+    MaxGuard: 100
+    CurrentGuard: 0
+    Atk: 180
+    ReductionDamage: 0
+    IncreasePercent: 10
+  - Level: 3
+    MaxHealth: 1020
+    CurrentHealth: 0
+    MaxGuard: 100
+    CurrentGuard: 0
+    Atk: 180
+    ReductionDamage: 0
+    IncreasePercent: 10
